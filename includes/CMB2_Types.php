@@ -772,7 +772,7 @@ class CMB2_Types {
 	}
 
 	public function taxonomy_radio_inline() {
-		$this->taxonomy_radio();
+		return $this->taxonomy_radio();
 	}
 
 	public function taxonomy_multicheck() {
@@ -813,7 +813,7 @@ class CMB2_Types {
 	}
 
 	public function taxonomy_multicheck_inline() {
-		$this->taxonomy_multicheck();
+		return $this->taxonomy_multicheck();
 	}
 
 	public function oembed() {
